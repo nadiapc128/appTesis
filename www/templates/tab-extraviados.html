@@ -1,0 +1,13 @@
+<ion-view view-title="Mascotas Extraviadas">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="mascota in mascotas.results" type="item-text-wrap" href="#/tab/extraviados/detalle/{{mascota.mascota_id}}">
+       <img ng-src="{{mascota.mascota.imagen}}">
+        <h2>{{mascota.mascota.nombre}}</h2>
+        <p>Se extravió el:</p>
+        <p>{{mascota.fecha_extravio}}</p>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

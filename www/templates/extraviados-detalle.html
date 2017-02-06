@@ -1,0 +1,20 @@
+<ion-view view-title="{{chat.name}}">
+  <ion-content class="padding">
+    <img ng-src="{{mascotas.mascota.imagen}}" style="width: 64px; height: 64px">
+    <p>
+    	<p>Raza: {{mascotas.mascota.raza.nombre}}</p>
+    	<p>Tamaño: {{mascotas.mascota.tamanio}}</p>
+    	<p>Descripción: {{mascotas.descripcion}}</p>
+    	<h4>Se extravión en:</h4>
+		<p>Calle principal: {{mascotas.calle_principal}}</p>
+		<p>Calle secundaria: {{mascotas.calle_secundaria}}</p>
+		<p>Refencia: {{mascotas.referencia_de_lugar}}</p>
+		<h4>Si lo encuentras comunícate con:</h4>
+		<p>Dueño(a): {{mascotas.mascota.user.first_name}}</p>
+		<p>Dueño(a): {{mascotas.mascota.user.email}}</p>
+		<p>Contacto: {{mascotas.contacto}} </p>
+
+      
+    </p>
+  </ion-content>
+</ion-view>
