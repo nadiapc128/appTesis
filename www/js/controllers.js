@@ -1,4 +1,5 @@
-$url = "http://127.0.0.1:8000";
+$url = "http://127.0.0.1:9000";
+//$url = "https:www.pethomeloja.tk";
 
 angular.module('starter.controllers', [])
 
